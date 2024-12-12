@@ -1,3 +1,7 @@
+
+import javax.naming.ldap.Rdn;
+import javax.swing.JFrame;
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
@@ -166,6 +170,7 @@ public class EspaceClient extends javax.swing.JFrame {
         // TODO add your handling code here:
         Retrait nouvelleFenetre = new Retrait();
         nouvelleFenetre.setVisible(true);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 
     private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem2ActionPerformed
@@ -178,6 +183,7 @@ public class EspaceClient extends javax.swing.JFrame {
         // TODO add your handling code here:
         Connexion nouvelleFenetre = new Connexion();
         nouvelleFenetre.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**

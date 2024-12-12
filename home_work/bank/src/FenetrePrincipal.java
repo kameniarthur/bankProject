@@ -160,7 +160,7 @@ public class FenetrePrincipal extends javax.swing.JFrame {
         // TODO add your handling code here:
         AjouterClient nouvelleFenetre = new AjouterClient();
         nouvelleFenetre.setVisible(true);
-        
+        this.dispose();
         
     }//GEN-LAST:event_ajouterclientActionPerformed
 
@@ -176,6 +176,7 @@ public class FenetrePrincipal extends javax.swing.JFrame {
         // TODO add your handling code here:
         NouveauCompte nouvelleFenetre = new NouveauCompte();
         nouvelleFenetre.setVisible(true);
+        this.dispose();
         
     }//GEN-LAST:event_ncompteActionPerformed
 
@@ -195,6 +196,7 @@ public class FenetrePrincipal extends javax.swing.JFrame {
         // TODO add your handling code here:
         Connexion nouvelleFenetre = new Connexion();
         nouvelleFenetre.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
